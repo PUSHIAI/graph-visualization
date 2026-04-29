@@ -1,0 +1,105 @@
+.elementui-btn-style1.el-button--primary{
+    background: #E8EFFF;
+    color: #0D86FF;
+    border-color: #E8EFFF;
+}
+.elementui-btn-style1.el-button--primary:focus, .elementui-btn-style1.el-button--primary:hover{
+    background: #D1DCF5;
+    border-color: #D1DCF5;
+}
+
+.custom-switch {
+    .el-switch {
+        margin: 0 0 0 8px;
+        .el-switch__core {
+            width: 36px;
+            height: 18px;
+            border: 2px solid #D0D9E2;
+            background: #E3E7ED;
+            &::after {
+                background: #ffffff;
+                width: 10px;
+                height: 10px;
+                top: 2px;
+                left: 3px;
+            }
+        }
+    }
+    .is-checked .el-switch__core {
+        border: 2px solid #D0D9E2;
+        background: #fff;
+        &::after {
+            margin: 0 0 0 18px;
+            background: #0D86FF;
+            width: 10px;
+            height: 10px;
+            top: 2px;
+            left: 3px;
+        }
+    }
+}
+
+.filter-cascader.el-popover{
+    border: none;
+    padding: 0;
+}
+
+
+.custom-tabs.el-tabs {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .el-tabs__active-bar {
+        width: 0 !important;
+    }
+    .el-tabs__item {
+        display: flex;
+        justify-content: center;
+    }
+    .el-tabs__nav {
+        display: flex;
+    }
+    .el-tabs__nav-scroll {
+        display: flex;
+        justify-content: center;
+    }
+    .el-tabs__content {
+        flex: 1;
+        display: flex;
+        .el-tab-pane {
+            flex: 1;
+            padding: 0 18px;
+        }
+    }
+    .is-active {
+        &::after{
+            content: '';
+            width: 26px;
+            height: 2px;
+            background: #0D86FF;
+            box-shadow: 0 2px 4px #A1C0E0;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .el-tabs__header{
+        margin: 0 18px 15px;
+    }
+}
+
+.custom-tabs-title{
+    .el-tabs__item.is-active{
+        color: #040C15;
+        font-weight: bold;
+    }
+    .el-tabs__item{
+        color:#464C5D;
+        font-weight: normal;
+    }
+}
+
+.ps-dropdown-menu .el-dropdown-menu__item {
+    line-height: 26px;
+    font-size: 12px;
+    padding: 0 16px;
+}

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249.937" height="184.081" viewBox="0 0 249.937 184.081">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f0f4f9;
+      }
+
+      .cls-3 {
+        fill: #ed6a5e;
+      }
+
+      .cls-4 {
+        fill: #f3bf4f;
+      }
+
+      .cls-5 {
+        fill: #62c554;
+      }
+
+      .cls-14, .cls-16, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #c5cde0;
+      }
+
+      .cls-7 {
+        fill: #c5cde0;
+      }
+
+      .cls-10, .cls-8 {
+        stroke: #0d86ff;
+        stroke-width: 1.6px;
+      }
+
+      .cls-9 {
+        fill: #0b70fa;
+      }
+
+      .cls-10 {
+        fill: #f5f7fb;
+      }
+
+      .cls-11 {
+        fill: #142d54;
+      }
+
+      .cls-12 {
+        fill: #c3cde2;
+        opacity: 0.399;
+      }
+
+      .cls-13 {
+        fill: #0d86ff;
+      }
+
+      .cls-14 {
+        stroke: #142d54;
+        stroke-dasharray: 6;
+      }
+
+      .cls-15 {
+        stroke: none;
+      }
+
+      .cls-17 {
+        filter: url(#矩形_2576);
+      }
+
+      .cls-18 {
+        filter: url(#矩形_2574);
+      }
+    </style>
+    <filter id="矩形_2574" x="0" y="0" width="249.937" height="184.081" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-color="#065df5" flood-opacity="0.243"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_2576" x="11.374" y="29.775" width="72.234" height="140.027" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#0d86ff" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_8289" data-name="组 8289" transform="translate(6.044 13.5)">
+    <g class="cls-18" transform="matrix(1, 0, 0, 1, -6.04, -13.5)">
+      <rect id="矩形_2574-2" data-name="矩形 2574" class="cls-1" width="216.937" height="151.081" rx="10" transform="translate(16.5 13.5)"/>
+    </g>
+    <path id="矩形_2575" data-name="矩形 2575" class="cls-2" d="M10,0H206.937a10,10,0,0,1,10,10v8.4a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(10.456 0)"/>
+    <ellipse id="椭圆_680" data-name="椭圆 680" class="cls-3" cx="2.421" cy="2.421" rx="2.421" ry="2.421" transform="translate(18.204 6.779)"/>
+    <ellipse id="椭圆_681" data-name="椭圆 681" class="cls-4" cx="2.421" cy="2.421" rx="2.421" ry="2.421" transform="translate(24.983 6.779)"/>
+    <ellipse id="椭圆_682" data-name="椭圆 682" class="cls-5" cx="2.421" cy="2.421" rx="2.421" ry="2.421" transform="translate(32.731 6.779)"/>
+    <g id="组_8288" data-name="组 8288" transform="translate(81.154 36.802)">
+      <g id="组_8219" data-name="组 8219" transform="translate(0 0)">
+        <path id="路径_8392" data-name="路径 8392" class="cls-6" d="M291.689,284.139l-20.127-47.387" transform="translate(-209.996 -192.552)"/>
+        <path id="路径_8393" data-name="路径 8393" class="cls-6" d="M9.031,38.487,0,0" transform="translate(48.778 6.894) rotate(-7)"/>
+        <ellipse id="椭圆_650" data-name="椭圆 650" class="cls-7" cx="7.748" cy="7.748" rx="7.748" ry="7.748" transform="translate(92.004 14.527)"/>
+        <ellipse id="椭圆_679" data-name="椭圆 679" class="cls-7" cx="7.748" cy="7.748" rx="7.748" ry="7.748" transform="translate(93.941 61.013)"/>
+        <ellipse id="椭圆_677" data-name="椭圆 677" class="cls-7" cx="4.842" cy="4.842" rx="4.842" ry="4.842" transform="translate(75.541 82.32)"/>
+        <ellipse id="椭圆_651" data-name="椭圆 651" class="cls-7" cx="5.811" cy="5.811" rx="5.811" ry="5.811" transform="translate(119.122 39.707)"/>
+        <ellipse id="椭圆_652" data-name="椭圆 652" class="cls-7" cx="8.232" cy="8.232" rx="8.232" ry="8.232" transform="translate(9.685 28.086)"/>
+        <ellipse id="椭圆_653" data-name="椭圆 653" class="cls-7" cx="5.811" cy="5.327" rx="5.811" ry="5.327" transform="translate(28.086 64.887)"/>
+        <ellipse id="椭圆_678" data-name="椭圆 678" class="cls-7" cx="5.811" cy="5.811" rx="5.811" ry="5.811" transform="translate(42.613 0)"/>
+        <ellipse id="椭圆_654" data-name="椭圆 654" class="cls-7" cx="5.327" cy="5.327" rx="5.327" ry="5.327" transform="translate(0 60.045)"/>
+        <path id="路径_8334" data-name="路径 8334" class="cls-6" d="M263.056,238.223,209.116,257.8" transform="translate(-204.54 -192.935)"/>
+        <path id="路径_8335" data-name="路径 8335" class="cls-6" d="M306.856,213.223l-37.019,21.591,63.841,2" transform="translate(-208.27 -191.399)"/>
+        <path id="路径_8333" data-name="路径 8333" class="cls-6" d="M226.063,228.223l42.031,7.816-28.778,26.189" transform="translate(-205.581 -192.32)"/>
+        <path id="路径_8336" data-name="路径 8336" class="cls-6" d="M308.577,258.312l-37.016-21.559" transform="translate(-208.376 -192.844)"/>
+        <g id="矩形_2506" data-name="矩形 2506" class="cls-8" transform="translate(45.518 26.149)">
+          <rect class="cls-15" width="34.865" height="35.833"/>
+          <rect class="cls-16" x="0.8" y="0.8" width="33.265" height="34.233"/>
+        </g>
+        <ellipse id="椭圆_645" data-name="椭圆 645" class="cls-9" cx="12.333" cy="12.333" rx="12.333" ry="12.333" transform="translate(50.1 30.413)"/>
+        <g id="椭圆_649" data-name="椭圆 649" class="cls-10" transform="translate(41.644 58.108)">
+          <ellipse class="cls-15" cx="3.39" cy="3.39" rx="3.39" ry="3.39"/>
+          <ellipse class="cls-16" cx="3.39" cy="3.39" rx="2.59" ry="2.59"/>
+        </g>
+        <g id="椭圆_648" data-name="椭圆 648" class="cls-10" transform="translate(76.509 58.108)">
+          <ellipse class="cls-15" cx="3.39" cy="3.39" rx="3.39" ry="3.39"/>
+          <ellipse class="cls-16" cx="3.39" cy="3.39" rx="2.59" ry="2.59"/>
+        </g>
+        <g id="椭圆_646" data-name="椭圆 646" class="cls-10" transform="translate(41.644 23.243)">
+          <ellipse class="cls-15" cx="3.39" cy="3.39" rx="3.39" ry="3.39"/>
+          <ellipse class="cls-16" cx="3.39" cy="3.39" rx="2.59" ry="2.59"/>
+        </g>
+        <g id="椭圆_647" data-name="椭圆 647" class="cls-10" transform="translate(76.509 23.243)">
+          <ellipse class="cls-15" cx="3.39" cy="3.39" rx="3.39" ry="3.39"/>
+          <ellipse class="cls-16" cx="3.39" cy="3.39" rx="2.59" ry="2.59"/>
+        </g>
+      </g>
+      <path id="多边形_11" data-name="多边形 11" class="cls-11" d="M10.264.768l7.79,15.825c.594,1.205-.428,2.611-1.575,2.164L9.114,15.891,1.749,18.758C.6,19.2-.419,17.8.174,16.594L7.965.768A1.244,1.244,0,0,1,10.264.768Z" transform="translate(56.641 59.149) rotate(-21)"/>
+    </g>
+    <g class="cls-17" transform="matrix(1, 0, 0, 1, -6.04, -13.5)">
+      <rect id="矩形_2576-2" data-name="矩形 2576" class="cls-1" width="54.234" height="122.027" rx="6" transform="translate(20.37 35.77)"/>
+    </g>
+    <rect id="矩形_2577" data-name="矩形 2577" class="cls-12" width="35.833" height="5.811" rx="2.905" transform="translate(27.888 27.117)"/>
+    <rect id="矩形_2578" data-name="矩形 2578" class="cls-12" width="35.833" height="5.811" rx="2.905" transform="translate(27.888 56.171)"/>
+    <rect id="矩形_2579" data-name="矩形 2579" class="cls-12" width="31.959" height="5.811" rx="2.905" transform="translate(27.888 36.802)"/>
+    <rect id="矩形_2580" data-name="矩形 2580" class="cls-12" width="21.306" height="5.811" rx="2.905" transform="translate(27.888 65.856)"/>
+    <rect id="矩形_2581" data-name="矩形 2581" class="cls-12" width="26.149" height="5.811" rx="2.905" transform="translate(27.888 46.486)"/>
+    <rect id="矩形_2582" data-name="矩形 2582" class="cls-12" width="31.959" height="5.811" rx="2.905" transform="translate(27.888 75.54)"/>
+    <rect id="矩形_2583" data-name="矩形 2583" class="cls-13" width="9.685" height="122.027" transform="translate(14.33 22.275)"/>
+    <path id="路径_8395" data-name="路径 8395" class="cls-14" d="M2754.872,4994.664s2.727,26.951,15.384,43.593c9.667,12.711,25.182,16.592,32.226,3.671,5-9.17-.827-23.208-16.33-23.347-33.267-.3-102.372,23.848-132.571,13.091-43.958-15.657-65.663-67.443-41.085-96.738" transform="translate(-2602.204 -4889.48)"/>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+{
+  "name": "GraphInsight",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-icon": "electron-icon-builder --input=./public/icon.png --output=build --flatten",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@pixi/interaction": "^6.2.0",
+    "@saeris/vue-spinners": "^1.0.8",
+    "axios": "^0.24.0",
+    "clamp": "^1.0.1",
+    "core-js": "^3.6.5",
+    "d3": "^7.2.1",
+    "dagre": "^0.8.5",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.6",
+    "material-colors": "^1.2.6",
+    "pixi.js": "^5.3.11",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.17.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "electron": "^13.0.0",
+    "electron-devtools-installer": "^3.1.0",
+    "electron-icon-builder": "^2.0.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.21",
+    "svg-sprite-loader": "^6.0.11",
+    "svgo": "^2.8.0",
+    "svgo-loader": "^3.0.0",
+    "vue-cli-plugin-electron-builder": "~2.1.1",
+    "vue-fullscreen": "^2.6.1",
+    "vue-template-compiler": "^2.6.11",
+    "worker-loader": "^3.0.8"
+  },
+  "__npminstall_done": false
+}

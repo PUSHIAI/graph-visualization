@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+    margin: 0;
+}
+
+body>svg {
+
+    path,
+    circle,
+    ellipse,
+    rect {
+        fill: inherit;
+    }
+}
+
+p,ul{
+    margin: 0;
+    padding:0;
+}
+
+li{
+    list-style: none;
+}
+
+//字体大小
+@font-list: 40, 38, 28, 24, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12, 10, 8;
+
+each(@font-list, {
+        .fs@{value} {
+            font-size: @value * 1px;
+        }
+    }
+)
+
+/* 内外边距 */
+@margin-px: 2,4,7,8, 10, 11, 12, 14,15, 16,18, 20, 22 ,24, 25, 26, 28, 38, 30, 34, 40, 58;
+
+each(@margin-px, {
+        .mt@{value} {
+            margin-top: @value * 1px;
+        }
+
+        .mb@{value} {
+            margin-bottom: @value * 1px;
+        }
+
+        .ml@{value} {
+            margin-left: @value * 1px;
+        }
+
+        .mr@{value} {
+            margin-right: @value * 1px;
+        }
+    }
+) 
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-layout {
+    display: flex;
+}
+
+.flex-shrink {
+    flex-shrink:0;
+}
+
+.flex {
+    flex:1;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-left-center{
+    display: flex;
+    align-items: center;
+}
+
+.tip-style1{
+    color: #778396;
+    font-size: 12px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.font-color-base{
+    color:#040C15;
+}
+html{
+    .font-color-base;
+}
+
+.font-color-sub{
+    color:#464C5D;
+}
+
+.font-color-secondary{
+    color:#778396;
+}
+
+.font-color-blue{
+    color:#0D86FF;
+}
+
+.font-color-red{
+    color:#FE5C5C;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.bottom-btn-con{
+    z-index: 1;
+    margin: 0 -18px;
+    padding: 18px 18px 0;
+    box-shadow: 0 0 8px rgba(0, 118, 255, 0.16);
+    border-radius: 26px 26px 0 0;
+}
+
+.relative{
+    position: relative;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.text-ellipsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.add-element {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 0 0;
+    .type-box {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #040C15;
+        font-size: 12px;
+        &:after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            background: #D0D9E2;
+            width: 1px;
+            height: 12px;
+        }
+        .type-icon {
+            width: 13px;
+            height: 13px;
+            margin: 0 7px 0 0;
+            fill: #778396;
+            stroke: #778396;
+        }
+    }
+    .select-type-box {
+        display: flex;
+        .search-box {
+            flex: 1;
+        }
+        .type-box {
+            width: 78px;
+            border-radius: 16px 0 0 16px;
+            border: 1px solid #D0D9E2;
+            padding: 7px 10px 6px;
+            border-right: 0;
+            &:after {
+                right: 0;
+            }
+        }
+    }
+    .add-element-common-box {
+        width: 100%;
+        height: 32px;
+        .el-input__inner, .el-input-group__prepend {
+            border: 1px solid #D0D9E2;
+            border-radius: 16px;
+        }
+        .el-input__inner {
+            height: 32px;
+            line-height: 32px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: 0;
+        }
+        .el-input-group__prepend {
+            width: 78px;
+            height: 32px;
+            padding: 0 10px 0 19px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-right: 0;
+            background: transparent;
+        }
+        .el-input__suffix {
+            .el-input__clear {
+                font-size: 20px;
+                color: #C9D6E3;
+                line-height: 32px;
+            }
+        }
+    }
+}
+.add-attr-form {
+    .button-box {
+        text-align: right;
+        .el-button {
+            margin: 10px 0 0;
+        }
+    }
+    .form-item {
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+        .title {
+            width: 70px;
+            text-align: right;
+        }
+        .el-input {
+            flex: 1;
+        }
+    }
+}
+
+.style-tip{
+    font-size: 11px;
+    padding-bottom: 2px;
+    margin-top: 6px;
+    color:#778398;
+    // color:#00379a;
+}
