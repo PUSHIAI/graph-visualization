@@ -1,0 +1,8 @@
+swagger:
+  host:
+  swagerPrefixPath:
+
+excel:
+  path: /data/product/app/graph-visualization-web/configs/excel
+  tmpPath: /data/product/app/graph-visualization-web/configs/excel
+  fileName: add_data.xlsx

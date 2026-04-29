@@ -1,0 +1,8 @@
+swagger:
+  host:
+  swagerPrefixPath:
+
+excle:
+  path: /tmp/excel
+  tmpPath: /tmp/excel
+  fileName: add_data.xlsx

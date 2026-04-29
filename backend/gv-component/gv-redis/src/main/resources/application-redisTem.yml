@@ -1,0 +1,26 @@
+spring:
+  redis:
+    #stand_alone 单机版本
+    #cluster 集群版本
+    model: stand_alone
+    database: 2
+    host: localhost
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password:
+    # 连接超时时间（毫秒）
+    timeout: 30000
+    # 集群模式
+    cluster:
+      - localhost:6379
+    # 如果使用的jedis 则将lettuce改成jedis即可 *现在只支持
+    lettuce:
+      pool:
+        # 连接池中的最大空闲连接
+        max-idle: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: 30000
+        # 连接池最大连接数（使用负值表示没有限制）
+        max-active: 8
+        # 连接池中的最小空闲连接
+        min-idle: 0
